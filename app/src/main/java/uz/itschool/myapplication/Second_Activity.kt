@@ -11,7 +11,8 @@ class Second_Activity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.second_layout)
         easy_button.setOnClickListener {
-
+            var intent=Intent(this, Third_Activity::class.java)
+            startActivity(intent)
         }
     }
 
