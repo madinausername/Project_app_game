@@ -7,18 +7,122 @@
     android:background="@drawable/background">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
+        android:id="@+id/letter_1"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:background="@drawable/shape_button_img"
         android:text="T"
+        android:visibility="invisible"
+        android:textColor="#4281f8"
+        android:shadowRadius="50"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/letter_2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button_img"
+        android:text="i"
+        android:textColor="#4281f8"
+        android:textSize="25sp"
+        android:shadowRadius="50"
+        android:visibility="invisible"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/letter_3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button_img"
+        android:text="C"
+        android:visibility="invisible"
+
+        android:shadowRadius="50"
         android:textColor="#4281f8"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481" />
+        app:layout_constraintVertical_bias="0.48" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/letter_4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button_img"
+        android:text="T"
+        android:textColor="#4281f8"
+        android:visibility="invisible"
+
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:shadowRadius="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/letter_5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button_img"
+        android:text="a"
+        android:shadowRadius="50"
+        android:visibility="invisible"
+
+        android:textColor="#4281f8"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/letter_6"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button_img"
+        android:text="C"
+        android:textColor="#4281f8"
+        android:textSize="25sp"
+        android:visibility="invisible"
+
+        android:textStyle="bold"
+        android:shadowRadius="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </TextView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
